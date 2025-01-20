@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .hover-70 {
+        @apply duration-200 hover:opacity-70 transition-opacity
+    }
+}

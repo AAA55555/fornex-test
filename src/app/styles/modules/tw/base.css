@@ -1,0 +1,30 @@
+@tailwind base;
+
+@layer base {
+    html {
+        @apply text-gray-700;
+        font-family: Inter, sans-serif;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        text-rendering: geometricPrecision;
+    }
+
+    .container {
+        @apply mx-auto
+    }
+
+    h1 {
+        @apply text-xl lg:text-2xl font-semibold
+    }
+
+    h2 {
+        @apply text-lg font-semibold lg:text-xl
+    }
+
+    h3 {
+        @apply text-base font-semibold lg:text-lg
+    }
+
+    a {
+        @apply text-blue-500
+    }
+}
