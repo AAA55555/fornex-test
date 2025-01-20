@@ -3,15 +3,17 @@
 ## Overview
 This is a Vue3 project developed for Fornex.
 
+The architecture is built using FSD.
+
 ## Prerequisites
 - Node.js: v20.10.0 (recommended)
-- npm or yarn
+- npm
 
 ## Setup
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   npm install
+   npm ci
    ```
 
 ## Development
@@ -29,10 +31,3 @@ npm run build
 ## Project Structure
 - `src/`: Source code
 - `public/`: Public assets
-- `dist/`: Compiled production build
-
-## Contributing
-Please read the contributing guidelines before making a pull request.
-
-## License
-[Specify your license here]
